@@ -1,0 +1,56 @@
+[{
+	"title": "Discussions",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionLeft"
+}, {
+	"title": "Finance",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionLeft"
+}, {
+	"title": "Timetable",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionLeft"
+}, {
+	"title": "Birthdays",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionMiddle"
+}, {
+	"title": "Employees on Leave",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionMiddle"
+}, {
+	"title": "News",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionMiddle"
+}, {
+	"title": "Blogs",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionMiddle"
+}, {
+	"title": "Leave Applications",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionMiddle"
+}, {
+	"title": "Online Meetings",
+	"content": "Meeting with Dean on July 25,2017 @ 5:00pm",
+	"active": "true",
+	"position": "positionRight"
+}, {
+	"title": "Events",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionRight"
+}, {
+	"title": "Placements",
+	"content": "No Data to Display",
+	"active": "true",
+	"position": "positionRight"
+}]

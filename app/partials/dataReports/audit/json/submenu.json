@@ -1,0 +1,13 @@
+[{
+	"title": "Activity Audit",
+	"tag": "View Activities",
+	"link": "/dataReports/audit/activityAudit"
+}, {
+	"title": "User Audit",
+	"tag": "View Userwise Activities",
+	"link": "/dataReports/audit/userAudit"
+}, {
+	"title": "Data Audit",
+	"tag": "View Data Activities",
+	"link": "/dataReports/audit/dataAudit"
+}]

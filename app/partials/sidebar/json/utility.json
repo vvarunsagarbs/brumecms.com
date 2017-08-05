@@ -1,0 +1,66 @@
+[{
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Alumni"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Blog"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Collaborate"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Discussion"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Documents"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "E-mail"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Event Creation"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Forms"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Gallery"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Google Docs"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "News"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Poll"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "cs.php",
+	"title": "Tasks"
+}]

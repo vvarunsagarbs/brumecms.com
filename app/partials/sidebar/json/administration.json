@@ -1,0 +1,41 @@
+[{
+	"icon": "",
+	"controller": "SettingsController",
+	"link": "settings.php",
+	"title": "Settings"
+}, {
+	"icon": "",
+	"controller": "HostelController",
+	"link": "hostel.php",
+	"title": "Hostel"
+}, {
+	"icon": "",
+	"controller": "HRController",
+	"link": "hr.php",
+	"title": "Human Resource"
+}, {
+	"icon": "",
+	"controller": "OnlinePaymentController",
+	"link": "onlinePayment.php",
+	"title": "Online Payment"
+}, {
+	"icon": "",
+	"controller": "InventoryController",
+	"link": "inventory.php",
+	"title": "Inventory"
+}, {
+	"icon": "",
+	"controller": "ReminderController",
+	"link": "reminder.php",
+	"title": "Reminders"
+}, {
+	"icon": "",
+	"controller": "FinanceController",
+	"link": "finance.php",
+	"title": "Finance"
+}, {
+	"icon": "",
+	"controller": "TransportController",
+	"link": "transport.php",
+	"title": "Transport"
+}]

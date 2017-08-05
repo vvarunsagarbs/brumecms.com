@@ -1,0 +1,9 @@
+[{
+	"activity": "login",
+	"module": "user",
+	"visits": "1"
+}, {
+	"activity": "logout",
+	"module": "user",
+	"visits": "1"
+}]

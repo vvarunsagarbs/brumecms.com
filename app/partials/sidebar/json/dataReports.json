@@ -1,0 +1,26 @@
+[{
+	"icon": "",
+	"controller": "ReportsController",
+	"link": "/Brume/brumecms.com/app/#/dataReports/reports",
+	"title": "Reports"
+}, {
+	"icon": "",
+	"controller": "CustomImportsController",
+	"link": "/Brume/brumecms.com/app/#/dataReports/customImports",
+	"title": "Custom Imports"
+}, {
+	"icon": "",
+	"controller": "CustomReportsController",
+	"link": "/Brume/brumecms.com/app/#/dataReports/customReports",
+	"title": "Custom Reports"
+}, {
+	"icon": "",
+	"controller": "HomeController",
+	"link": "/Brume/brumecms.com/app/#/dataReports/dataExports",
+	"title": "Data Exports"
+}, {
+	"icon": "",
+	"controller": "AuditController",
+	"link": "/Brume/brumecms.com/app/#/dataReports/audit",
+	"title": "Audit"
+}]

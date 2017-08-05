@@ -1,0 +1,21 @@
+[{
+	"name": "admin",
+	"password": "admin123",
+	"type": "a",
+	"id": "adminid"
+}, {
+	"name": "employee",
+	"password": "employee123",
+	"type": "e",
+	"id": "employeeid"
+}, {
+	"name": "student",
+	"password": "student123",
+	"type": "s",
+	"id": "studentid"
+}, {
+	"name": "parent",
+	"password": "parent123",
+	"type": "p",
+	"id": "parentid"
+}]

@@ -1,0 +1,45 @@
+[{
+	"title": "Course / Batch Details",
+	"tag": "Generates Course / Batch Details",
+	"link": "/dataReports/reports/courseBatch"
+}, {
+	"title": "Former students Details",
+	"tag": "Generates Former students Details",
+	"link": "/dataReports/reports/formerStudents"
+}, {
+	"title": "Former Employees Details",
+	"tag": "Generates Former Employees Details",
+	"link": "/dataReports/reports/formerEmployees"
+}, {
+	"title": "Subject Details",
+	"tag": "Generates Subject Details",
+	"link": "/dataReports/reports/generateSubjects"
+}, {
+	"title": "Employee Subject Association Details",
+	"tag": "Generates Employee subject association Details",
+	"link": "/dataReports/reports/generateEmployeeSubject"
+}, {
+	"title": "Employee Payroll Details",
+	"tag": "Generates Employee Payroll Details",
+	"link": "/dataReports/reports/generateEmployeePayroll"
+}, {
+	"title": "Exam Schedule Details",
+	"tag": "Generates Exam Schedule Details",
+	"link": "/dataReports/reports/generateExamSchedule"
+}, {
+	"title": "Fee collection Details",
+	"tag": "Generates Fee collection Details",
+	"link": "/dataReports/reports/generateFeeCollection"
+}, {
+	"title": "Fees Defaulters Details",
+	"tag": "Generates Fees Defaulters Details",
+	"link": "/dataReports/reports/generateFeesDefaulters"
+}, {
+	"title": "Students Fees Defaulters Details",
+	"tag": "Generates Students Fees Defaulters Details",
+	"link": "/dataReports/reports/generateStudentFeesDefaulters"
+}, {
+	"title": "Students Fees Head-wise Report",
+	"tag": "Generates Students Fees Head-wise Report",
+	"link": "/dataReports/reports/generateStudentsFees"
+}]

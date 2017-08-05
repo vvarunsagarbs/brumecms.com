@@ -1,0 +1,26 @@
+[{
+	"title": "Examinations",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionLeft"
+}, {
+	"title": "Timetable",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionLeft"
+}, {
+	"title": "News",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionMiddle"
+}, {
+	"title": "Fees Due",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionMiddle"
+}, {
+	"title": "Events",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionRight"
+}]

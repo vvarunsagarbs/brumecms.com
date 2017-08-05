@@ -1,0 +1,26 @@
+[{
+	"title": "Leave Applications",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionLeft"
+}, {
+	"title": "News",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionLeft"
+}, {
+	"title": "Employees On Leave",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionMiddle"
+}, {
+	"title": "Events",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionMiddle"
+}, {
+	"title": "Timetable",
+	"content": "No Data to Display",
+	"active": "true",
+	"poistion": "positionRight"
+}]

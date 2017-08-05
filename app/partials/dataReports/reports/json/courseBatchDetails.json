@@ -1,0 +1,67 @@
+[{
+	"sNo": "1",
+	"name": "Diploma in Theatre Semester 1(GPA)",
+	"code": "DT Sem1",
+	"batch": "0",
+	"student": "0"
+}, {
+	"sNo": "2",
+	"name": "Diploma in Theatre Semester 2(GPA)",
+	"code": "DT Sem2",
+	"batch": "0",
+	"student": "0"
+}, {
+	"sNo": "3",
+	"name": "Diploma in Theatre Semester 3(GPA)",
+	"code": "DT Sem3",
+	"batch": "0",
+	"student": "0"
+}, {
+	"sNo": "4",
+	"name": "Diploma in Theatre Semester 4(GPA)",
+	"code": "DT Sem4",
+	"batch": "0",
+	"student": "0"
+}, {
+	"sNo": "5",
+	"name": "Diploma in Theatre Semester 5(GPA)",
+	"code": "DT Sem5",
+	"batch": "0",
+	"student": "0"
+}, {
+	"sNo": "6",
+	"name": "Diploma in Theatre Semester 6(GPA)",
+	"code": "DT Sem6",
+	"batch": "1",
+	"student": "5"
+}, {
+	"sNo": "7",
+	"name": "Grade 1(Normal)",
+	"code": "G1",
+	"batch": "1",
+	"student": "11"
+}, {
+	"sNo": "8",
+	"name": "Grade 2(GPA)",
+	"code": "G2",
+	"batch": "1",
+	"student": "10"
+}, {
+	"sNo": "9",
+	"name": "Grade 3(CWA)",
+	"code": "G3",
+	"batch": "1",
+	"student": "10"
+}, {
+	"sNo": "10",
+	"name": "Grade 4(CSE)",
+	"code": "G4",
+	"batch": "1",
+	"student": "10"
+}, {
+	"sNo": "11",
+	"name": "Grade 5(CCE)",
+	"code": "G5",
+	"batch": "1",
+	"student": "10"
+}]
