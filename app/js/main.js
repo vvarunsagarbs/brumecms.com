@@ -31,21 +31,68 @@ app.config(['$routeProvider', function ($routeProvider) {
 
     // Administration
       // Finance
-      .when("/administration/finance", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "ModuleController"})
+      .when("/administration/finance", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Fees Control
+        // .when("/administration/finance/feesControl", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Category
+        // .when("/administration/finance/category", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Tranasaction
+        // .when("/administration/finance/transactions", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Donations
+        // .when("/administration/finance/donations", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // payslip Management
+        // .when("/administration/finance/payslipManagement", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Finance Reports
+        // .when("/administration/finance/reports", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Asset Liablity
+        // .when("/administration/finance/assetLiability", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+        // // Tally  Export
+        // .when("/administration/finance/tallyExport", {templateUrl: "partials/administration/finance/financeIndex.html", controller: "FinanceController"})
+
       // Hostel
-      .when("/administration/hostel", {templateUrl: "partials/administration/hostel/index.html", controller: "ModuleController"})
+      .when("/administration/hostel", {templateUrl: "partials/administration/hostel/hostelIndex.html", controller: "HostelController"})
+        // Hostel Details
+        .when("/administration/hostel/hostelDetails", {templateUrl: "partials/administration/hostel/hostelDetails/hostelDetailsIndex.html", controller: "HostelController"})
+        // Room Details
+        .when("/administration/hostel/roomDetails", {templateUrl: "partials/administration/hostel/roomDetails/roomDetailsIndex.html", controller: "HostelController"})
+        // // Room Allocation
+        // .when("/administration/hostel/roomAllocation", {templateUrl: "partials/administration/hostel/roomAllocation/roomAllocationIndex.html", controller: "HostelController"})
+        // // Generate Report
+        // .when("/administration/hostel/generateReport", {templateUrl: "partials/administration/hostel/generateReport/generateReportIndex.html", controller: "HostelController"})
+
       // HR
-      .when("/administration/hr", {templateUrl: "partials/administration/hr/index.html", controller: "ModuleController"})
+      .when("/administration/hr", {templateUrl: "partials/administration/hr/hrIndex.html", controller: "HRController"})
+        // Settings
+        .when("/administration/hr/settings", {templateUrl: "partials/administration/hr/settings/settingsIndex.html", controller: "HRController"})
+
       // Inventory
-      .when("/administration/inventory", {templateUrl: "partials/administration/inventory/index.html", controller: "ModuleController"})
+      .when("/administration/inventory", {templateUrl: "partials/administration/inventory/inventoryIndex.html", controller: "InventoryController"})
       // Online Payment
-      .when("/administration/onlinePayment", {templateUrl: "partials/administration/onlinePayment/index.html", controller: "ModuleController"})
+      .when("/administration/onlinePayment", {templateUrl: "partials/administration/onlinePayment/onlinePaymentIndex.html", controller: "OnlinePaymentController"})
+        // Settings
+        .when("/administration/onlinePayment/settings", {templateUrl: "partials/administration/onlinePayment/settings/settingsIndex.html", controller: "OnlinePaymentController"})
+        // Transactions
+        .when("/administration/onlinePayment/transactions", {templateUrl: "partials/administration/onlinePayment/transactions/transactionsIndex.html", controller: "OnlinePaymentController"})
+        // Custom Gateways
+        .when("/administration/onlinePayment/customGateways", {templateUrl: "partials/administration/onlinePayment/customGateways/customGatewaysIndex.html", controller: "OnlinePaymentController"})
+
       // Reminder
-      .when("/administration/reminder", {templateUrl: "partials/administration/reminder/index.html", controller: "ModuleController"})
+      .when("/administration/reminder", {templateUrl: "partials/administration/reminder/reminderIndex.html", controller: "ReminderController"})
       // Settings
-      .when("/administration/settings", {templateUrl: "partials/administration/settings/index.html", controller: "ModuleController"})
+      .when("/administration/settings", {templateUrl: "partials/administration/settings/settingsIndex.html", controller: "SettingsController"})
+        // Manage Course Batches
+        .when("/administration/settings/courseBatch", {templateUrl: "partials/administration/settings/courseBatch/courseBatchIndex.html", controller: "SettingsController"})
+        // Manage Subjects
+        .when("/administration/settings/subjects", {templateUrl: "partials/administration/settings/subjects/subjectsIndex.html", controller: "SettingsController"})
+        // Manage Student Category
+        .when("/administration/settings/studentCategory", {templateUrl: "partials/administration/settings/studentCategory/studentCategoryIndex.html", controller: "SettingsController"})
+        // Manage AdditionalAdmissionDetails
+        .when("/administration/settings/additionalAdmissionDetails", {templateUrl: "partials/administration/settings/additionalAdmissionDetails/additionalAdmissionDetailsIndex.html", controller: "SettingsController"})
+        // Manage SMS Module
+        // .when("/administration/settings/sms", {templateUrl: "partials/administration/settings/sms/smsIndex.html", controller: "SettingsController"})
+
       // Transport
-      .when("/administration/transport", {templateUrl: "partials/administration/transport/index.html", controller: "ModuleController"})
+      .when("/administration/transport", {templateUrl: "partials/administration/transport/transportIndex.html", controller: "TransportController"})
 
 
 // ===========================================================================================================================================
@@ -73,23 +120,23 @@ app.config(['$routeProvider', function ($routeProvider) {
       // Placement
       .when("/academics/placement", {templateUrl: "partials/academics/placements/placementsIndex.html", controller: "PlacementsController"})
       // Calender
-      .when("/academics/calender", {templateUrl: "partials/academics/calender/index.html", controller: "ModuleController"})
-      // Examination
-      .when("/academics/examination", {templateUrl: "partials/academics/examination/index.html", controller: "ModuleController"})
-      // Leaves
-      .when("/academics/leaves", {templateUrl: "partials/academics/leaves/index.html", controller: "ModuleController"})
-      // Library
-      .when("/academics/library", {templateUrl: "partials/academics/library/index.html", controller: "ModuleController"})
-      // Remarks
-      .when("/academics/remarks", {templateUrl: "partials/academics/remarks/index.html", controller: "ModuleController"})
-      // Student Records
-      .when("/academics/studentRecords", {templateUrl: "partials/academics/studentRecords/index.html", controller: "ModuleController"})
-      // Students
-      .when("/academics/students", {templateUrl: "partials/academics/students/index.html", controller: "ModuleController"})
-      // TimeTable
-      .when("/academics/timetable", {templateUrl: "partials/academics/timetable/index.html", controller: "ModuleController"})
-      // Transfer Certificate
-      .when("/academics/transferCertificate", {templateUrl: "partials/academics/transferCertificate/index.html", controller: "ModuleController"})
+      // .when("/academics/calender", {templateUrl: "partials/academics/calender/index.html", controller: "ModuleController"})
+      // // Examination
+      // .when("/academics/examination", {templateUrl: "partials/academics/examination/index.html", controller: "ModuleController"})
+      // // Leaves
+      // .when("/academics/leaves", {templateUrl: "partials/academics/leaves/index.html", controller: "ModuleController"})
+      // // Library
+      // .when("/academics/library", {templateUrl: "partials/academics/library/index.html", controller: "ModuleController"})
+      // // Remarks
+      // .when("/academics/remarks", {templateUrl: "partials/academics/remarks/index.html", controller: "ModuleController"})
+      // // Student Records
+      // .when("/academics/studentRecords", {templateUrl: "partials/academics/studentRecords/index.html", controller: "ModuleController"})
+      // // Students
+      // .when("/academics/students", {templateUrl: "partials/academics/students/index.html", controller: "ModuleController"})
+      // // TimeTable
+      // .when("/academics/timetable", {templateUrl: "partials/academics/timetable/index.html", controller: "ModuleController"})
+      // // Transfer Certificate
+      // .when("/academics/transferCertificate", {templateUrl: "partials/academics/transferCertificate/index.html", controller: "ModuleController"})
 
   // ===========================================================================================================================================
 

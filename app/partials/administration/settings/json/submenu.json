@@ -1,0 +1,21 @@
+[{
+	"title": "Course/ Batch",
+	"tag": "Add a new course or batch for this academic year",
+	"link": "/administration/settings/courseBatch"
+}, {
+	"title": "Subjects",
+	"tag": "Manage subjects coresponding to different courses",
+	"link": "/administration/settings/subjects"
+}, {
+	"title": "Student Category",
+	"tag": "Add Student Category",
+	"link": "/administration/settings/studentCategory"
+}, {
+	"title": "Additional Admission Details",
+	"tag": "Set Some Additional details for admission",
+	"link": "/administration/settings/additionalAdmissionDetails"
+}, {
+	"title": "SMS Module",
+	"tag": "Enable/disable SMS settings",
+	"link": "/administration/settings/sms"
+}]

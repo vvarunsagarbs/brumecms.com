@@ -1,0 +1,33 @@
+[{
+	"title": "Fees",
+	"tag": "Fees Control",
+	"link": "/administration/finance/feesControl"
+}, {
+	"title": "Category",
+	"tag": "Manage Category",
+	"link": "/administration/finance/category"
+}, {
+	"title": "Transactions",
+	"tag": "Manage Transactions",
+	"link": "/administration/finance/transactions"
+}, {
+	"title": "Donations",
+	"tag": "Create new donations",
+	"link": "/administration/finance/donations"
+}, {
+	"title": "Employee Payslip Management",
+	"tag": "Manage employee payslips and generate the employee payslip report",
+	"link": "/administration/finance/payslipManagement"
+}, {
+	"title": "Finance Reports",
+	"tag": "Show Transactions",
+	"link": "/administration/finance/reports"
+}, {
+	"title": "Asset Liability Management",
+	"tag": "Asset Liability Management",
+	"link": "/administration/finance/assetLiability"
+}, {
+	"title": "Tally Export",
+	"tag": "Manage Tally Exports",
+	"link": "/administration/finance/tallyExport"
+}]

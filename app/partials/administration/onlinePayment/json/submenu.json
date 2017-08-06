@@ -1,0 +1,13 @@
+[{
+	"title": "Settings",
+	"tag": "Manage online payment settings",
+	"link": "/administration/onlinePayment/settings"
+}, {
+	"title": "Transactions",
+	"tag": "List online transactions",
+	"link": "/administration/onlinePayment/transactions"
+}, {
+	"title": "Custom Gateways",
+	"tag": "Manage custom gateways",
+	"link": "/administration/onlinePayment/customGateways"
+}]

@@ -1,0 +1,17 @@
+[{
+ "title": "Reminder Settings",
+ "tag": "Create and manage reminders for events, fee schedules and exam schedules",
+ "link": "/administration/reminder/settings"
+}, {
+ "title": "Create Custom Reminders",
+ "tag": "Create custom reminders for upcoming institutional events",
+ "link": "/administration/reminder/CustomReminder/create"
+}, {
+ "title": "View Event Reminders",
+ "tag": "View and update reminders for upcoming events, fee schedules and exam schedules",
+ "link": "/administration/reminder/eventReminders"
+}, {
+ "title": "View Custom Reminders",
+ "tag": "View and update custom reminders for upcoming institutional events",
+ "link": "/administration/reminder/CustomReminders/view"
+}]

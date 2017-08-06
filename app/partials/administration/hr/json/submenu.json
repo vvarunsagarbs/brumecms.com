@@ -1,0 +1,21 @@
+[{
+	"title": "HR Settings",
+	"tag": "Set up and maintain Human Resources",
+	"link": "/administration/hr/settings"
+}, {
+	"title": "Employee Management",
+	"tag": "Add employees and manage their subject associations",
+	"link": "/administration/hr/employeeManagement"
+}, {
+	"title": "Employee Leave Management",
+	"tag": "Manage employee attendance and leaves",
+	"link": "/administration/hr/leaveManagement"
+}, {
+	"title": "Employee Search",
+	"tag": "Search, view, and maintain employee records",
+	"link": "/administration/hr/employeeSearch"
+}, {
+	"title": "Payroll and Payslip Management",
+	"tag": "Set up employee payroll and generate payslips",
+	"link": "/administration/hr/payrollPayslipManagement"
+}]

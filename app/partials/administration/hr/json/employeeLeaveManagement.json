@@ -1,0 +1,17 @@
+[{
+	"title": "Attendance Register",
+	"tag": "Mark employee attendance",
+	"link": "elmarr"
+}, {
+	"title": "Attendance Report",
+	"tag": "Generate the employee attendance report for all departments",
+	"link": "elmart"
+}, {
+	"title": "Leave Reset",
+	"tag": "Reset employee leaves",
+	"link": "elmart"
+}, {
+	"title": "Leave Applications",
+	"tag": "View all employee leave applications",
+	"link": "elmla"
+}]

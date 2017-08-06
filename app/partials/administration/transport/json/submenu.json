@@ -1,0 +1,29 @@
+[{
+	"title": "Set Routes",
+	"tag": "Set the routes for vehicles",
+	"link": "/administration/tranport/setRoutes"
+}, {
+	"title": "Vehicles",
+	"tag": "Vehicle Details",
+	"link": "/administration/tranport/vehicles"
+}, {
+	"title": "Transport",
+	"tag": "Transport Details",
+	"link": "/administration/tranport/transport"
+}, {
+	"title": "Transport Fee",
+	"tag": "Transport Fee Details",
+	"link": "/administration/tranport/transportFee"
+}, {
+	"title": "Report",
+	"tag": "Generate Report",
+	"link": "/administration/tranport/report"
+}, {
+	"title": "Manage route additional details",
+	"tag": "Additional Details",
+	"link": "/administration/tranport/routeAdditionalDetails"
+}, {
+	"title": "Manage vehicle additional details",
+	"tag": "Additional Details",
+	"link": "/administration/tranport/vehicleAdditionalDetails"
+}]

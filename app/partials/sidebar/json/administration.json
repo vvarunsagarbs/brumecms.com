@@ -1,41 +1,41 @@
 [{
 	"icon": "",
 	"controller": "SettingsController",
-	"link": "settings.php",
+	"link": "/administration/settings",
 	"title": "Settings"
 }, {
 	"icon": "",
 	"controller": "HostelController",
-	"link": "hostel.php",
+	"link": "/administration/hostel",
 	"title": "Hostel"
 }, {
 	"icon": "",
 	"controller": "HRController",
-	"link": "hr.php",
+	"link": "/administration/hr",
 	"title": "Human Resource"
 }, {
 	"icon": "",
 	"controller": "OnlinePaymentController",
-	"link": "onlinePayment.php",
+	"link": "/administration/onlinePayment",
 	"title": "Online Payment"
 }, {
 	"icon": "",
 	"controller": "InventoryController",
-	"link": "inventory.php",
+	"link": "/administration/inventory",
 	"title": "Inventory"
 }, {
 	"icon": "",
 	"controller": "ReminderController",
-	"link": "reminder.php",
+	"link": "/administration/reminder",
 	"title": "Reminders"
 }, {
 	"icon": "",
 	"controller": "FinanceController",
-	"link": "finance.php",
+	"link": "/administration/finance",
 	"title": "Finance"
 }, {
 	"icon": "",
 	"controller": "TransportController",
-	"link": "transport.php",
+	"link": "/administration/transport",
 	"title": "Transport"
 }]

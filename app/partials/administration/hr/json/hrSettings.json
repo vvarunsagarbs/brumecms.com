@@ -1,0 +1,41 @@
+[{
+	"title": "Employee Category",
+	"tag": "Create and manage employee categories",
+	"link": "hrsec"
+}, {
+	"title": "Employee Position",
+	"tag": "Create and manage employee positions",
+	"link": "hrsep"
+}, {
+	"title": "Employee Department",
+	"tag": "Create and manage employee departments",
+	"link": "hrsed"
+}, {
+	"title": "Employee Grade",
+	"tag": "Create and manage employee grades",
+	"link": "hrseg"
+}, {
+	"title": "Working Day Settings",
+	"tag": "Set up employee working day settings",
+	"link": "hrswds"
+}, {
+	"title": "Leave Types",
+	"tag": "Add and manage employee leave types",
+	"link": "hrslt"
+}, {
+	"title": "Bank Details",
+	"tag": "Create and manage employee bank details",
+	"link": "hrsbd"
+}, {
+	"title": "Payroll Settings",
+	"tag": "Configure the payroll calculation mode",
+	"link": "hrsps"
+}, {
+	"title": "Additional Details",
+	"tag": "Create and manage additional details for the employee admission form",
+	"link": "hrsps"
+}, {
+	"title": "Leave Groups",
+	"tag": "Create leave groups to manage different leave types.",
+	"link": "hrslg"
+}]

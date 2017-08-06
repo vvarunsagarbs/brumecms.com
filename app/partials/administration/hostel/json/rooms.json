@@ -1,0 +1,101 @@
+[{
+	"rNo": "r1",
+	"spr": "4",
+	"availability": "2",
+	"rent": "2500"
+}, {
+	"rNo": "r2",
+	"spr": "4",
+	"availability": "2",
+	"rent": "2500"
+}, {
+	"rNo": "r3",
+	"spr": "4",
+	"availability": "2",
+	"rent": "2500"
+}, {
+	"rNo": "r4",
+	"spr": "4",
+	"availability": "2",
+	"rent": "2500"
+}, {
+	"rNo": "r5",
+	"spr": "4",
+	"availability": "2",
+	"rent": "2500"
+}, {
+	"rNo": "r6",
+	"spr": "3",
+	"availability": "3",
+	"rent": "3000"
+}, {
+	"rNo": "r7",
+	"spr": "3",
+	"availability": "3",
+	"rent": "3000"
+}, {
+	"rNo": "r8",
+	"spr": "3",
+	"availability": "2",
+	"rent": "3000"
+}, {
+	"rNo": "r9",
+	"spr": "3",
+	"availability": "2",
+	"rent": "3000"
+}, {
+	"rNo": "r10",
+	"spr": "3",
+	"availability": "1",
+	"rent": "2500"
+}, {
+	"rNo": "r11",
+	"spr": "2",
+	"availability": "2",
+	"rent": "3500"
+}, {
+	"rNo": "r12",
+	"spr": "2",
+	"availability": "2",
+	"rent": "3500"
+}, {
+	"rNo": "r13",
+	"spr": "2",
+	"availability": "2",
+	"rent": "3500"
+}, {
+	"rNo": "r14",
+	"spr": "2",
+	"availability": "1",
+	"rent": "3500"
+}, {
+	"rNo": "r15",
+	"spr": "2",
+	"availability": "1",
+	"rent": "3500"
+}, {
+	"rNo": "r16",
+	"spr": "1",
+	"availability": "1",
+	"rent": "4000"
+}, {
+	"rNo": "r17",
+	"spr": "1",
+	"availability": "1",
+	"rent": "4000"
+}, {
+	"rNo": "r18",
+	"spr": "1",
+	"availability": "1",
+	"rent": "4000"
+}, {
+	"rNo": "r19",
+	"spr": "1",
+	"availability": "1",
+	"rent": "4000"
+}, {
+	"rNo": "r20",
+	"spr": "1",
+	"availability": "1",
+	"rent": "4000"
+}]

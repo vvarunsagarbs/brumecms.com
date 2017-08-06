@@ -1,0 +1,33 @@
+[{
+	"title": "Payroll Categories",
+	"tag": "Create and manage employee payroll categories",
+	"link": "ppm"
+}, {
+	"title": "Payroll Groups",
+	"tag": "Create and manage employee payroll groups",
+	"link": "ppmpg"
+}, {
+	"title": "Payslips for Payroll Groups",
+	"tag": "Generate payslips for employees of a payroll group",
+	"link": "ppmppg"
+}, {
+	"title": "Payslips for Employees",
+	"tag": "Generate payslips for individual employees",
+	"link": "ppmpfe"
+}, {
+	"title": "Rejected Payslips",
+	"tag": "Manage rejected employee payslips",
+	"link": "ppmrp"
+}, {
+	"title": "Payslip Settings",
+	"tag": "Configure information to be displayed in employee payslips",
+	"link": "ppmps"
+}, {
+	"title": "Payslip Report",
+	"tag": "View the employee payslip report",
+	"link": "ppmpr"
+}, {
+	"title": "Advanced Payslip Reports",
+	"tag": "Generate advanced payslip reports and save as custom templates for later use",
+	"link": "ppmapr"
+}]

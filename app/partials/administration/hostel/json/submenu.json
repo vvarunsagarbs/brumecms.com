@@ -1,0 +1,17 @@
+[{
+	"title": "Hostel",
+	"tag": "Manage Hostel Details",
+	"link": "/administration/hostel/hostelDetails"
+}, {
+	"title": "Rooms",
+	"tag": "Manage room details",
+	"link": "/administration/hostel/roomDetails"
+}, {
+	"title": "Room Allocation",
+	"tag": "Allocate rooms to the students",
+	"link": "/administration/hostel/roomAllocation"
+}, {
+	"title": "Report",
+	"tag": "Generate Report",
+	"link": "/administration/hostel/generateReport"
+}]

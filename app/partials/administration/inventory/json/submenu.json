@@ -1,0 +1,57 @@
+[{
+		"title": "Store Category",
+		"tag": "Create and Manage store categories",
+		"link": "/administration/inventory/storeCategory"
+	}, {
+		"title": "Store Type",
+		"tag": "Create and manage store types",
+		"link": "/administration/inventory/storeType"
+	}, {
+		"title": "Store",
+		"tag": "Create and Manage Stores",
+		"link": "/administration/inventory/store"
+	},
+	{
+		"title": "Item Category",
+		"tag": "Create and Manage item categories",
+		"link": "/administration/inventory/itemCategory"
+	}, {
+		"title": "Store Items",
+		"tag": "Create and manage store items",
+		"link": "/administration/inventory/storeItems"
+	}, {
+		"title": "Supplier Type",
+		"tag": "Create and Manage Supplier Types",
+		"link": "/administration/inventory/supplierType"
+	},
+	{
+		"title": "Supplier",
+		"tag": "Create and Manage suppliers",
+		"link": "/administration/inventory/supplier"
+	}, {
+		"title": "Indents",
+		"tag": "Create indents",
+		"link": "/administration/inventory/indents"
+	}, {
+		"title": "Purchase Order",
+		"tag": "Manage Purchase Order",
+		"link": "/administration/inventory/purchaseOrder"
+	},
+	{
+		"title": "Billing",
+		"tag": "Manage Invoice",
+		"link": "/administration/inventory/billing"
+	}, {
+		"title": "GRN",
+		"tag": "Creates GRN",
+		"link": "/administration/inventory/grn"
+	}, {
+		"title": "Reports",
+		"tag": "Generate Reports",
+		"link": "/administration/inventory/reports"
+	}, {
+		"title": "Tax Settings",
+		"tag": "Manage tax calculation mode",
+		"link": "/administration/inventory/taxSettings"
+	}
+]
