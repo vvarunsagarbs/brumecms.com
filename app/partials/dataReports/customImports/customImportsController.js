@@ -11,17 +11,6 @@ angular.module('brumecms').controller('CustomImportsController', function (AuthS
     return deffered.promise;
   }
 
-  $scope.loadSubMenu = function () {
-    var deffered = $q.defer();
-    console.log('loadSubMenu');
-    ModuleLoaderService.enqueSubmenu('dataReports').then(function() {
-      $scope.moduleSubMenu = ModuleLoaderService.enqueData();
-      console.log('$scope.moduleSubMenu',$scope.moduleSubMenu);
-      deffered.resolve();
-    })
-    return deffered.promise;
-  }
-
   $scope.loadCustomImportList = function () {
     var deffered = $q.defer();
     console.log('loadSubMenu');
@@ -35,6 +24,5 @@ angular.module('brumecms').controller('CustomImportsController', function (AuthS
   }
 
   $scope.localValidation()
-    .then( function () { $scope.loadSubMenu(); })
     .then( function () { $scope.loadCustomImportList(); })
 });

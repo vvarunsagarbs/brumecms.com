@@ -1,4 +1,4 @@
-angular.module('brumecms').controller('DataExportsController', function (AuthService, DashBoardService, ModuleLoaderService, DataExportsModelService, ReportsService, $scope,$rootScope,$location, $q) {
+angular.module('brumecms').controller('DataExportsController', function (AuthService, DashBoardService, DataExportsModelService, ReportsService, $scope,$rootScope,$location, $q) {
   console.log('Loading DataExportsController..');
 
   $scope.localValidation = function () {
@@ -8,17 +8,6 @@ angular.module('brumecms').controller('DataExportsController', function (AuthSer
       console.log('validatedUser', $rootScope.activeUser);
       deffered.resolve();
     });
-    return deffered.promise;
-  }
-
-  $scope.loadSubMenu = function () {
-    var deffered = $q.defer();
-    console.log('loadSubMenu');
-    ModuleLoaderService.enqueSubmenu('dataReports').then(function() {
-      $scope.moduleSubMenu = ModuleLoaderService.enqueData();
-      console.log('$scope.moduleSubMenu',$scope.moduleSubMenu);
-      deffered.resolve();
-    })
     return deffered.promise;
   }
 
@@ -35,6 +24,5 @@ angular.module('brumecms').controller('DataExportsController', function (AuthSer
   }
 
   $scope.localValidation()
-    .then( function () { $scope.loadSubMenu(); })
     .then( function () { $scope.loadCustomImportList(); })
 });

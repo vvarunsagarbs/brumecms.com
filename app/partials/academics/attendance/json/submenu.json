@@ -1,0 +1,13 @@
+[{
+	"title": "Attendance Register",
+	"tag": "Attendance register for Students",
+	"link": "/academics/attendance/attendanceRegister"
+}, {
+	"title": "Attendance Report",
+	"tag": "Attendance report of Students",
+	"link": "/academics/attendance/attendanceReport"
+}, {
+	"title": "Day-wise Attendance Report",
+	"tag": "Day-wise Attendance Report",
+	"link": "/academics/attendance/dayAttendanceReport"
+}]

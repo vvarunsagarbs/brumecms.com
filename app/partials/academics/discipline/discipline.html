@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row" id="pageHeader" style="background-color:#F6F8F8;color:#646565;font-size:18px;">
+    <div class="col-md-3 pad-20">
+      Discipline
+    </div>
+  </div>
+  <div id="BreadCrumb">
+    <ul>
+      <a ng-click="goTo('none','/')"><li style="display:inline">Home</li></a> >
+      <a ng-click="goTo('academics','/modules/academics')"><li style="display:inline">Academics</li></a> >
+      <a><li style="display:inline">Discipline</li></a>
+    </ul>
+  </div>
+  <div class="col-md-9 col-md-offset-1 pad-10" style="box-shadow:0px 2px 4px grey;background-color:white;">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th class="center">Sl.no</th>
+          <th class="center">Title</th>
+          <th class="center">Complaint No</th>
+          <th class="center">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="detail in complaints">
+          <td>{{$index+1}}</td>
+          <td>{{detail.title}}</td>
+          <td>{{detail.complaintNo}}</td>
+          <td><a>Edit</a> | <a>Delete</a></td>
+        </tr>
+      </tbody>
+      <a style="float:right" ng-click="JSONToCSVConvertor(complaints,'Complaints','Complaints')">DownloadReport</a>
+    </table>
+  </div>
+
+</div>

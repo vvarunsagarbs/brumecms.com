@@ -1,0 +1,135 @@
+<div class="container-fluid">
+  <div class="row" id="pageHeader" style="background-color:#F6F8F8;color:#646565;font-size:18px;">
+    <div class="col-md-3 pad-20">
+      My Profile
+    </div>
+  </div>
+  <div id="BreadCrumb">
+    <ul>
+      <a ng-click="goTo('none','/')"><li style="display:inline">Home</li></a> >
+      <a ng-click="goTo('academics','/modules/academics')"><li style="display:inline">Academics</li></a> >
+      <a><li style="display:inline">My Profile</li></a>
+    </ul>
+  </div>
+  <div class="col-md-9 col-md-offset-1 pad-10" style="box-shadow:0px 2px 4px grey;background-color:white;">
+    <div class="row">
+      <div class="col-md-2">
+        <img src="img/a0.jpg" alt="profilePic" style="border-radius:50%;width:100%;"/>
+      </div>
+      <div class="col-md-8 pad-10" style="text-align:left;">
+        <p>{{profile.name}}</p>
+        <p>ID: {{profile.id}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="container-fluid" id="profileInfo">
+          <div class="row">
+            <div class="col-md-4">
+              Joining Date
+            </div>
+            <div class="col-md-8">
+              {{profile.joiningDate}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Department
+            </div>
+            <div class="col-md-8">
+              {{profile.department}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Category
+            </div>
+            <div class="col-md-8">
+              {{profile.category}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Position
+            </div>
+            <div class="col-md-8">
+              {{profile.position}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Grade
+            </div>
+            <div class="col-md-8">
+              {{profile.grade}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Job Title
+            </div>
+            <div class="col-md-8">
+              {{profile.jobTitle}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Gender
+            </div>
+            <div class="col-md-8">
+              {{profile.gender}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Email
+            </div>
+            <div class="col-md-8">
+              {{profile.email}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Status
+            </div>
+            <div class="col-md-8">
+              {{profile.status}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Qualification
+            </div>
+            <div class="col-md-8">
+              {{profile.qualification}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Total Experience
+            </div>
+            <div class="col-md-8">
+              {{profile.totalExperience}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Experience Info
+            </div>
+            <div class="col-md-8">
+              {{profile.experienceInfo}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Biometric ID
+            </div>
+            <div class="col-md-8">
+              {{profile.biometricID}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

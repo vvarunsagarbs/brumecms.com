@@ -1,91 +1,91 @@
 [{
 		"icon": "",
 		"controller": "ApplicantRegistrationController",
-		"link": "applicantRegistration.php",
+		"link": "/Brume/brumecms.com/app/#/academics/applicantRegistration",
 		"title": "Applicant Registration"
 	},
 	{
 		"icon": "",
 		"controller": "AttendanceController",
-		"link": "attendance.php",
+		"link": "/Brume/brumecms.com/app/#/academics/attendance",
 		"title": "Attendence"
 	},
 	{
 		"icon": "",
 		"controller": "BatchSummaryController",
-		"link": "batchSummary.php",
+		"link": "/Brume/brumecms.com/app/#/academics/batchSummary",
 		"title": "Batch Summary"
 	},
 	{
 		"icon": "",
 		"controller": "DisciplineController",
-		"link": "discipline.php",
+		"link": "/Brume/brumecms.com/app/#/academics/discipline",
 		"title": "Discipline"
 	},
 	{
 		"icon": "",
 		"controller": "ProfileController",
-		"link": "myProfile.php",
+		"link": "/Brume/brumecms.com/app/#/academics/myProfile",
 		"title": "My Profile"
 	},
 	{
 		"icon": "",
 		"controller": "PlacementsController",
-		"link": "placements.php",
+		"link": "/Brume/brumecms.com/app/#/academics/placement",
 		"title": "Placement"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/leaves",
 		"title": "Leaves"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/library",
 		"title": "Library"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/remarks",
 		"title": "Remarks"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/studentRecords",
 		"title": "Student Records"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/students",
 		"title": "Students"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/timetable",
 		"title": "Timetable"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/trnasferCertificate",
 		"title": "Transfer Certificate"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/examination",
 		"title": "Examination"
 	},
 	{
 		"icon": "",
 		"controller": "HomeController",
-		"link": "cs.php",
+		"link": "/Brume/brumecms.com/app/#/academics/calender",
 		"title": "Calender"
 	}
 ]

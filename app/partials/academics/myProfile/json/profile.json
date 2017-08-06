@@ -1,0 +1,17 @@
+{
+	"name": "Admin",
+	"id": "admin",
+	"joiningDate": "March 01, 2017",
+	"department": "System Admin",
+	"category": "System Admin",
+	"position": "System Admin",
+	"grade": "System Admin",
+	"jobTitle": "Administrator",
+	"gender": "Male",
+	"email": "testmail@testcompany.com",
+	"status": "Active",
+	"qualification": "BE",
+	"totalExperience": "4",
+	"experienceInfo": "NA",
+	"biometricID": "NA"
+}

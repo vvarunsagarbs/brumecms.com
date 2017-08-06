@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="row" id="pageHeader" style="background-color:#F6F8F8;color:#646565;font-size:18px;">
+    <div class="col-md-3 pad-20">
+      Batch Summary
+    </div>
+  </div>
+  <div id="BreadCrumb">
+    <ul>
+      <a ng-click="goTo('none','/')"><li style="display:inline">Home</li></a> >
+      <a ng-click="goTo('academics','/modules/academics')"><li style="display:inline">Academics</li></a> >
+      <a><li style="display:inline">Batch Summary</li></a>
+    </ul>
+  </div>
+  <div class="col-md-9 col-md-offset-1 pad-10" style="box-shadow:0px 2px 4px grey;background-color:white;">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Sl.no</th>
+          <th>Student Name</th>
+          <th>Course</th>
+          <th>Batch</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="detail in formerStudentDetails">
+          <td>{{$index+1}}</td>
+          <td>{{detail.studentName}}</td>
+          <td>{{detail.course}}</td>
+          <td>{{detail.batch}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
