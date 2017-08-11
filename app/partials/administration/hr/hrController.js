@@ -67,9 +67,15 @@ angular.module('brumecms').controller('HRController', function (AuthService, Das
   }
 
   $scope.localValidation()
-    .then( function () { $scope.loadSubMenu(); })
-    .then( function () { $scope.loadHRSettingsMenu(); })
-    .then( function () { $scope.loadEmployeeManagementMenu(); })
-    .then( function () { $scope.loadEmployeeLeaveManagementMenu(); })
-    .then( function () { $scope.loadPayrollAndPayslipManagementMenu(); })
+    .then( function () {
+      $scope.loadSubMenu().then( function () {
+        $scope.loadHRSettingsMenu().then ( function () {
+          $scope.loadEmployeeManagementMenu().then ( function () {
+            $scope.loadEmployeeLeaveManagementMenu().then ( function () {
+              $scope.loadPayrollAndPayslipManagementMenu();
+            })
+          })
+        })
+      })
+     })
 });
