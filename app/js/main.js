@@ -55,10 +55,10 @@ app.config(['$routeProvider', function ($routeProvider) {
         .when("/administration/hostel/hostelDetails", {templateUrl: "partials/administration/hostel/hostelDetails/hostelDetailsIndex.html", controller: "HostelController"})
         // Room Details
         .when("/administration/hostel/roomDetails", {templateUrl: "partials/administration/hostel/roomDetails/roomDetailsIndex.html", controller: "HostelController"})
-        // // Room Allocation
-        // .when("/administration/hostel/roomAllocation", {templateUrl: "partials/administration/hostel/roomAllocation/roomAllocationIndex.html", controller: "HostelController"})
-        // // Generate Report
-        // .when("/administration/hostel/generateReport", {templateUrl: "partials/administration/hostel/generateReport/generateReportIndex.html", controller: "HostelController"})
+        // Room Allocation
+        .when("/administration/hostel/roomAllocation", {templateUrl: "partials/administration/hostel/roomAllocation/roomAllocationIndex.html", controller: "HostelController"})
+        // Generate Report
+        .when("/administration/hostel/report", {templateUrl: "partials/administration/hostel/report/reportIndex.html", controller: "HostelController"})
 
       // HR
       .when("/administration/hr", {templateUrl: "partials/administration/hr/hrIndex.html", controller: "HRController"})

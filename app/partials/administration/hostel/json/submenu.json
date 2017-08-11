@@ -13,5 +13,5 @@
 }, {
 	"title": "Report",
 	"tag": "Generate Report",
-	"link": "/administration/hostel/generateReport"
+	"link": "/administration/hostel/report"
 }]

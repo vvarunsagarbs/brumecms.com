@@ -1,0 +1,53 @@
+<div class="container-fluid">
+  <div class="row" id="pageHeader" style="background-color:#F6F8F8;color:#646565;font-size:18px;">
+    <div class="col-md-2 pad-10">
+      Configuration
+    </div>
+    <div class="col-md-10">
+      <ul id="moduleSubMenu" class="customScroll">
+        <a ng-repeat="menu in moduleSubMenu" ng-click="goTo('dataReports',menu.link)"><li>{{menu.title}}</li></a>
+      </ul>
+    </div>
+  </div>
+  <div id="BreadCrumb">
+    <ul>
+      <a ng-click="goTo('none','/')"><li style="display:inline">Home</li></a> >
+      <a ng-click="goTo('administration','/modules/administration')"><li style="display:inline">Adminsitration</li></a> >
+      <a ng-click="goTo('administration','/administration/hostel')"><li style="display:inline">Hostel</li></a> >
+      <a><li style="display:inline">Reports</li></a>
+    </ul>
+  </div>
+  <div class="row pad-20">
+    <div class="col-md-8 col-md-offset-1 pad-10" style="box-shadow:0px 2px 4px grey;background-color:white;">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Sl.no</th>
+            <th>Name</th>
+            <th>Hostel Type</th>
+            <th>Total Rooms</th>
+            <th>Available Rooms</th>
+            <th>Occupied Rooms</th>
+            <th>Warden</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="report in reports">
+            <td>{{$index+1}}</td>
+            <td>{{report.name}}</td>
+            <td>{{report.type}}</td>
+            <td>{{report.totalRooms}}</td>
+            <td>{{report.availableRooms}}</td>
+            <td>{{report.occupiedRooms}}</td>
+            <td>{{report.warden}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-2 pad-10 center">
+      <div>
+        <div class="pad-10" style="background-color:#23b7e5;color:white;font-weight:bold;"ng-click="JSONToCSVConvertor(rooms,'Room with Availablity','rooms')"> Download Data</div>
+      </div>
+    </div>
+  </div>
+</div>

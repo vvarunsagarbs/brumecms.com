@@ -1,0 +1,15 @@
+[{
+	"name": "G1",
+	"type": "Gents",
+	"totalRooms" : "20",
+	"availableRooms" : "20",
+	"occupiedRooms" : "0",
+	"warden" : "Neeraj P"
+}, {
+	"name": "L1",
+	"type": "Ladies",
+	"totalRooms" : "15",
+	"availableRooms" : "15",
+	"occupiedRooms" : "0",
+	"warden" : "Neelima N"
+}]

@@ -4,6 +4,7 @@ angular.module('brumecms').service('HostelService', function($http, $q) {
   var hostelSubMenu = [];
   var hostelsData = [];
   var roomsData = [];
+  var reportsData = [];
 
   this.enqueSubMenu = function (usertype) {
     var jsonFileToLoad = 'partials/administration/hostel/json/submenu.json';
@@ -48,5 +49,20 @@ angular.module('brumecms').service('HostelService', function($http, $q) {
 
   this.enqueRoomsData = function () {
     return roomsData;
+  };
+
+  this.enqueReport= function (usertype) {
+    var jsonFileToLoad = 'partials/administration/hostel/json/report.json';
+    console.log('jsonFileToLoad',jsonFileToLoad);
+    $http.get(jsonFileToLoad).success(function(res) {
+      reportsData = res;
+      console.log('reportsData', reportsData);
+      deffered.resolve();
+    });
+    return deffered.promise;
+  };
+
+  this.enqueReportData = function () {
+    return reportsData;
   };
 })

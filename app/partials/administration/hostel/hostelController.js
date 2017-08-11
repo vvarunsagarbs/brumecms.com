@@ -44,8 +44,20 @@ angular.module('brumecms').controller('HostelController', function (AuthService,
     return deffered.promise;
   }
 
+  $scope.loadReport = function () {
+    var deffered = $q.defer();
+    console.log('loadReport');
+    HostelService.enqueReport().then(function() {
+      $scope.reports = HostelService.enqueReportData();
+      console.log('$scope.reports',$scope.reports);
+      deffered.resolve();
+    })
+    return deffered.promise;
+  }
+
   $scope.localValidation()
     .then( function () { $scope.loadSubMenu(); })
     .then( function () { $scope.loadHostels(); })
     .then( function () { $scope.loadRooms(); })
+    .then( function () { $scope.loadReport(); })
 });
